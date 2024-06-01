@@ -140,23 +140,33 @@ def znovu_hrat():
         if odpoved in ["ano", "ne"]:
             return odpoved == "ano"
         else:
-            print("Neplatný vstup. Zadejte prosím 'Ano' nebo 'Ne'.")
+            print("\n Neplatný vstup. Zadejte prosím 'Ano' nebo 'Ne'.")
 
-
+   # Resetování desky
 while True:
-    # Resetování desky
     deska = [' '] * 10
     hrac1, znacka_hrace1, hrac2, znacka_hrace2 = vstup_hrace()
     tah = volba_prvniho(hrac1, hrac2)
     print(f"\n {tah} začne jako první.")
-    hrat_hru = input("\n Jste připraveni hrát? Zadejte Ano nebo Ne: ")
     
-    time.sleep(1)
+    while True:
+        hrat_hru = input("\n Jste připraveni hrát? Zadejte Ano nebo Ne: ").strip().lower()
+        if hrat_hru == "ano":
+            break
+        elif hrat_hru == "ne":
+            print("\n Dobře, až budete připraven, stačí zmáčknout enter.")
+            while True:
+                enter = input()
+                if enter == "":
+                    break
+                else:
+                    print("\n Zmáčkněte enter.")
+            break
+        else:
+            print("\n Neplatný vstup. Zadejte prosím 'Ano' nebo 'Ne'.")
+            time.sleep(1)
     
-    if hrat_hru.lower()[0] == "a":
-        hra_bezi = True
-    else:
-        hra_bezi = False
+    hra_bezi = True
 
     while hra_bezi:
         if tah == "Hráč 1":
