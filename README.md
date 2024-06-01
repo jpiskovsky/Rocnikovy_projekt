@@ -10,8 +10,11 @@ Piškvorky jsou jednoduchá hra, ve které dva hráči střídavě umisťují sv
 
 - Hra umožňuje dvěma hráčům hrát proti sobě.
 - Obsahuje jednoduchý tutoriál pro seznámení s pravidly.
+- Umožňuje zadat jména hráčů.
+- Volba prvního hráče se generuje náhodně.
 - Hráči střídavě volí pozici pro umístění své značky.
-- Kontroluje se výhra a remíza. Volba prvního hráče se generuje náhodně.
+- Kontroluje se výhra a remíza.
+- Je možné hru spustit opakovaně nebo ukončit.
 
 ## Použití
 
