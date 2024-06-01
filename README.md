@@ -19,7 +19,7 @@ Piškvorky jsou jednoduchá hra, ve které dva hráči střídavě umisťují sv
 ## Použití
 
 1. Spusťte program a postupujte podle instrukcí na obrazovce.
-2. Zadejte jména hráčů a vyberte, jestli první hráč bude hrát za X a který za O.
+2. Zadejte jména hráčů a vyberte, jestli první hráč bude hrát za X nebo za O.
 3. Hraje se střídavě, hráči volí pozici pro umístění své značky.
 4. Hra končí, když jeden z hráčů vyhraje, dojde k remíze, nebo když se hráči rozhodnou ukončit hru.
 5. Pokud si přejete hrát znovu, můžete to udělat po ukončení aktuální hry.
