@@ -4,7 +4,7 @@ Pro tento projekt jsem zvolil naprogramovat klasickou hru Piškvorky pro dva hr�
 
 ## Popis
 
-Piškvorky jsou jednoduchá hra, ve které dva hráči střídavě umisťují své značky (X a O) na herní desku s 3x3 poli. Cílem je umístit své značky do řady, sloupce nebo diagonály. K výhře hráč musí mít po sobě jdoucí 3 tyto znaky.
+Piškvorky jsou jednoduchá hra, ve které dva hráči střídavě umisťují své značky (X a O) na herní desku s 3x3 poli. Cílem je umístit své značky do řady, sloupce nebo diagonály. K výhře musí mít hráč 3 po sobě jdoucí znaky.
 
 ## Funkce
 
