@@ -1,4 +1,4 @@
-# Importování modulu clear_output z IPython.display
+#Importování modulů
 from IPython.display import clear_output
 import random
 import time
@@ -49,7 +49,7 @@ def zobrazit_desku(deska):
     print(" " + deska[1] + " | " + deska[2] + " | " + deska[3])
     print("   |   |")
 
-# Testovací hrací deska
+# Tutoriál
 testovaci_deska = ["#", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 zobrazit_desku(testovaci_deska)
 
@@ -142,13 +142,14 @@ def znovu_hrat():
         else:
             print("\n Neplatný vstup. Zadejte prosím 'Ano' nebo 'Ne'.")
 
-   # Resetování desky
+# Resetování desky
 while True:
     deska = [' '] * 10
     hrac1, znacka_hrace1, hrac2, znacka_hrace2 = vstup_hrace()
     tah = volba_prvniho(hrac1, hrac2)
     print(f"\n {tah} začne jako první.")
-    
+
+# Spuštění hry    
     while True:
         hrat_hru = input("\n Jste připraveni hrát? Zadejte Ano nebo Ne: ").strip().lower()
         if hrat_hru == "ano":
